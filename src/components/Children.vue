@@ -1,5 +1,7 @@
 <template>
-  <div>Children二级页面</div>
+  <div class="aa">Children二级页面
+    <p class="dd">dd</p>
+  </div>
 </template>
 
 <script>
@@ -13,5 +15,11 @@ export default {
 }
 </script>
 
-<style lang="" scoped>
+<style lang="less" scoped>
+.aa {
+  text-align: center;
+  .dd {
+    color: red;
+  }
+}
 </style>
